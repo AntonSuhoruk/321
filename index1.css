@@ -7,11 +7,17 @@
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #151515;
+
+}
+.cards {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background: #151515;
+
 }
 .card {
   position: relative;
