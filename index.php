@@ -13,19 +13,6 @@ require(__DIR__.'/start.php');
     <link rel="stylesheet" href="/index1.css">
 </head>
 <body>
-<nav>
-    <?php
-        if(!$user){ ?>
-            <a href="/login.php" style="color: white">
-                Войти
-            </a>
-            <a href="/reg.php" style="color: white">
-                Регистрация
-            </a>
-       <?php     }else { ?>
-         <a href="/acc.php"><?=$user['name']?></a>
-    <?php } ?>
-</nav>
 
 <div class="cards">
     <div>

@@ -71,6 +71,8 @@ body {
   width: 100px;
   transition: 0.5s;
   transition-delay: 0.5s;
+  left: -40px;
+  bottom: 30px;
 }
 .card:hover .circle .logo {
   transform: scale(0);

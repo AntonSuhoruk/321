@@ -1,7 +1,6 @@
 <?php
 require 'start.php';
 
-
 ?>
 
 <!DOCTYPE html>
@@ -120,9 +119,15 @@ require 'start.php';
     </div>
     <?php } ?>
 
-    <button style="border: none; width:100px; padding: 12px; margin-left: auto; margin-right: 40px" onclick="window.location.href='/'">
-        заказать
-    </button>
+    <div style="display: flex;flex-direction: row; justify-content: end">
+        <button style="border: none; width:100px; padding: 12px; margin-left:auto;margin-right: 40px" onclick="window.location.href='/cart.php?act=add&id=<?=$_GET['id']?>'">
+            Добавить
+        </button>
+        <button style="border: none; width:100px; padding: 12px; margin-right: 40px" onclick="window.location.href='/buy.php'">
+            Оформить
+        </button>
+    </div>
+
 </div>
 <div>
     <button>
